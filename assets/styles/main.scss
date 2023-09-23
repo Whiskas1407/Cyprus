@@ -1,0 +1,81 @@
+//GLOBAl SETTINGS >>>>>>>>>>
+@import "colors";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  overflow-x: hidden;
+  font-size: var(--fontSize);
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  background: $white;
+  font-family: "HelveticaNeueCyr-Light", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  color: $blue-900;
+  font-size: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  color: $blue-900;
+}
+
+h1 {
+  font-size: 6.4rem;
+}
+h2 {
+  font-size: 4.6rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+h4 {
+  font-size: 2.2rem;
+}
+h5 {
+  font-size: 1.6rem;
+}
+p {
+  font-size: 1.4rem;
+}
+button, .btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  transition: .5s;
+  color: $white;
+  background-color: $violet;
+  border-radius: 1.2rem;
+  font-size: 1.6rem;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  padding: 0 16.5rem;
+}
+input {
+  border: none;
+  background: inherit;
+  outline: none;
+  font-size: 1.4rem;
+}
