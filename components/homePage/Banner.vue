@@ -4,7 +4,7 @@
 <template>
   <div class="banner">
     <div class="banner__info">
-      <h3 class="banner__info-title">Project Name</h3>
+      <h3 class="banner__info-title">Seaglass Complex Limassol</h3>
       <h3 class="banner__info-price">от $170 000</h3>
       <p class="banner__info-more">
         подробней
@@ -21,8 +21,9 @@
 </template>
 <style lang="scss" scoped>
 .banner {
+  position: relative;
   display: flex;
-  height: 45rem;
+  height: 52.4rem;
   padding: 6.4rem 15.7rem 2.4rem 15.7rem;
   flex-direction: column;
   justify-content: space-between;
@@ -36,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1.6rem;
+    gap: 1.9rem;
     align-self: stretch;
     &-title {
       font-family: PlayfairDisplay-Regular, sans-serif;
@@ -63,6 +64,8 @@
     display: flex;
     align-items: flex-start;
     gap: .8rem;
+    position: absolute;
+    top: 2.4rem;
     &-item {
       width: 6.4rem;
       height: .4rem;

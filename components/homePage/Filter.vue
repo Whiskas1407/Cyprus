@@ -23,7 +23,9 @@ let filters = [
 <template>
   <div class="container">
     <div class="filter">
-      <Select v-for="filter of filters" :key="filter.id" :item="filter" />
+      <div class="filter__select">
+        <Select v-for="filter of filters" :key="filter.id" :item="filter" />
+      </div>
       <button class="filter__search">
         Искать
         <img src="/static/icons/loupe.svg" alt="search" />
@@ -41,13 +43,18 @@ let filters = [
     display: flex;
     align-items: center;
     grid-column-gap: .8rem;
+    &__select {
+      display: flex;
+      align-items: flex-start;
+      gap: .8rem;
+      flex: 10 0 0;
+    }
     &__search {
       display: flex;
       align-items: center;
-      width: 33.2rem;
-      height: 6.4rem;
+      width: 9.3rem;
       justify-content: center;
-      padding: 2.4rem 3.2rem;
+      padding: 2.1rem 3.2rem;
       gap: 1rem;
       flex: 1 0 0;
       img {

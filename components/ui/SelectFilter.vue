@@ -16,6 +16,8 @@ const props = defineProps(['item'])
   padding: 2.4rem 1.6rem;
   align-items: center;
   gap: 3.4rem;
+  justify-content: space-between;
+  flex: 1 0 0;
   &__image {
     width: 1.2rem;
   }
